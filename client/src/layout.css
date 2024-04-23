@@ -1,0 +1,106 @@
+.main {
+  padding: 20px;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.role {
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.sidebar {
+  background-color: #53c6e9;
+  border-radius: 10px;
+  box-shadow: 0.4rem 0.4rem 0 rgba(22, 160, 133, 0.2);
+  margin-right: 20px;
+  min-height: 100%;
+  padding: 10px;
+  cursor: pointer;
+  width: 435px;
+  font-weight: 300;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.4rem 0.4rem 0 rgba(22, 160, 133, 0.2);
+  margin-bottom: 20px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px #00A9FF;
+  border-style: solid;
+}
+
+.body {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0.4rem 0.4rem 0 rgba(22, 160, 133, 0.2);
+  height: 82vh;
+  width: 100%;
+  padding: 15px;
+  border: 2px #00A9FF;
+  border-style: solid;
+  /* overflow-x: scroll !important; */
+}
+
+.menu {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.menu-item {
+  margin-top: 30px;
+}
+
+.menu-item a {
+  color: rgba(255, 255, 255, 0.727);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0 10px;
+}
+.menu-item i {
+  color: rgba(255, 255, 255, 0.716);
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 15px;
+  font-weight: 500px;
+}
+
+.active-menu-item {
+  background-color: #A0E9FF;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.header-action-icon {
+  font-size: 30px;
+  color: black !important;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.ant-scroll-number-only-unit {
+  padding-right: -10px !important;
+  padding-bottom: -10px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    padding: 0 5px;
+  }
+}
+.profilephoto.layout{
+    width: 150px;
+    padding-left: 80px;
+}
